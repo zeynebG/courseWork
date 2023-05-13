@@ -1,0 +1,61 @@
+
+.nameLogo{
+    font-size: 25px;
+    font-style: italic;
+    font-weight:700;
+    color: white;
+}
+.nameLogo:hover{
+    font-size: 26px;
+     text-shadow: 2px 2px rgba(0, 0, 0, 0.452);
+}
+.a{
+    display: block;
+}
+.header {
+    display: flex;
+    background-color: #707c78;
+    padding: 20px;
+  }
+.navigation ul{
+    display: flex;
+    justify-content:space-between;
+    gap: 450px;
+    margin-top: 35px;
+    margin-left: 100px;
+}
+.navigation a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+.navigation a:hover{
+     font-size: 20px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.452);
+}
+.containerServices{
+    background-color: #ece9e6;
+}
+
+.cardS{
+     width: 80%;
+     padding: 100px;
+     margin-left: 190px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.cardfirst{
+    width: 32%;
+    color: white;
+    padding: 30px;
+    background-color: #707c78;
+}
+.paragraphTitle{
+    color: white;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 7px;
+  margin-bottom: 40px;
+  text-align: center;
+}
