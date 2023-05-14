@@ -1,26 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="script.js">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./contact.css" />
+  </head>
+  <body>
     <div class="header">
-    <div class="nameLogo">
-       <span class="a">Home</span> <span class="a">Appliances</span> <span>Repair</span>
-    </div>
-    <div class="navigation">
+      <div class="nameLogo">
+        <span class="a">Home</span> <span class="a">Appliances</span>
+        <span>Repair</span>
+      </div>
+      <div class="navigation">
         <ul type="none">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
+      </div>
     </div>
-</div>
-</body>
+    <div class="contact">
+      <div class="formPart">
+        <form>
+          <label for="name">Name</label> <br />
+          <input type="text" required /> <br />
+          <label for="surname">Surname</label> <br />
+          <input type="text" required /> <br />
+          <label for="email">Email</label> <br />
+          <input type="email" required /> <br />
+          <label for="tel">Contact Number</label> <br />
+          <input type="number" required /> <br />
+          <label for="date">Date of Appoinment</label> <br />
+          <input type="date" required /> <br />
+          <label for="address">Address</label> <br />
+          <input type="text" required /> <br />
+        </form>
+        <button class="formButton" onclick="eventClick()">Submit</button>
+      </div>
+
+      <div class="contactInfo">
+        <p>Available for: 5 workdays, 8am-6pm</p>
+        <br />
+        <h1>Contact us</h1>
+
+        <p>Email: example@company.com</p>
+        <p>Number: +123456789</p>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
 </html>

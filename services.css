@@ -1,61 +1,62 @@
-
-.nameLogo{
-    font-size: 25px;
-    font-style: italic;
-    font-weight:700;
-    color: white;
+.containerServices {
+  background-color: #ece9e6;
+  margin: 50px;
 }
-.nameLogo:hover{
-    font-size: 26px;
-     text-shadow: 2px 2px rgba(0, 0, 0, 0.452);
+.infoServices h1 {
+  font-size: 60px;
+  color: #111111e7;
 }
-.a{
-    display: block;
+.infoServices p {
+  font-size: 20px;
+  color: #111111e7;
 }
-.header {
-    display: flex;
-    background-color: #707c78;
-    padding: 20px;
-  }
-.navigation ul{
-    display: flex;
-    justify-content:space-between;
-    gap: 450px;
-    margin-top: 35px;
-    margin-left: 100px;
-}
-.navigation a{
-    color: white;
-    text-decoration: none;
-    font-weight: 500;
-}
-.navigation a:hover{
-     font-size: 20px;
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.452);
-}
-.containerServices{
-    background-color: #ece9e6;
-}
-
-.cardS{
-     width: 80%;
-     padding: 100px;
-     margin-left: 190px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 25px;
-}
-.cardfirst{
-    width: 32%;
-    color: white;
-    padding: 30px;
-    background-color: #707c78;
-}
-.paragraphTitle{
-    color: white;
+.service h2 {
   font-size: 40px;
-  font-weight: 700;
-  padding: 7px;
-  margin-bottom: 40px;
-  text-align: center;
+  color: #111111e7;
+}
+.service p {
+  font-size: 20px;
+  color: #111111e7;
+}
+.infoServices {
+  padding: 20px;
+}
+.service {
+  padding: 20px;
+}
+.bookApp {
+  padding: 20px;
+}
+.bookApp h2 {
+  font-size: 30px;
+  color: #111111e7;
+}
+.bookApp p {
+  font-size: 15px;
+  color: #111111e7;
+}
+.btn {
+  display: inline-block;
+  margin-left: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  background-color: #707c78;
+  border-color: transparent;
+  color: #fff;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+.btn:hover {
+  background-color: #343636;
+}
+@media (max-width: 767px) {
+  .containerServices {
+    margin: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .containerServices {
+    margin: 20px;
+  }
 }

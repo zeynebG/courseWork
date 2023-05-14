@@ -1,36 +1,75 @@
-.nameLogo{
-    /* font-weight: 900; */
-    font-size: 25px;
-    font-style: italic;
-    font-weight:700;
-    color: white;
-    /* text-shadow: 2px 2px rgba(0, 0, 0, 0.678); */
+.formPart {
+  margin: 80px;
+  width: 30%;
 }
-.nameLogo:hover{
-    font-size: 26px;
-     text-shadow: 2px 2px rgba(0, 0, 0, 0.452);
+label {
+  display: block;
+  margin-bottom: 1px;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 500;
 }
-.a{
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button {
+  background-color: #707c78;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+button:hover {
+  background-color: #343636;
+  transition-duration: 0.3s;
+}
+.contact {
+  display: flex;
+  justify-content: space-around;
+}
+.contactInfo {
+  width: 20%;
+  margin-top: 300px;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 500;
+}
+@media (max-width: 767px) {
+  .contact {
     display: block;
+    margin: 20px;
+  }
+  .formPart {
+    width: 60%;
+    margin: 7px;
+  }
+  .contactInfo {
+    width: 100%;
+    margin-top: 0;
+    font-size: 19px;
+  }
 }
-.header{
-    display: flex;
-    background-color: #707c78;
-    padding: 20px;
-}
-.navigation ul{
-    display: flex;
-    justify-content:space-between;
-    gap: 450px;
-    margin-top: 35px;
-    margin-left: 100px;
-}
-.navigation a{
-    color: white;
-    text-decoration: none;
-    font-weight: 500;
-}
-.navigation a:hover{
-     font-size: 20px;
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.452);
+@media (min-width: 768px) and (max-width: 1199px) {
+  .contact {
+    display: block;
+    margin: 20px;
+  }
+  .formPart {
+    width: 60%;
+    margin: 7px;
+  }
+  .contactInfo {
+    width: 100%;
+    margin-top: 0;
+    font-size: 19px;
+  }
 }
