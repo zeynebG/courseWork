@@ -12,7 +12,10 @@ label {
 input[type="text"],
 input[type="email"],
 input[type="number"],
-input[type="date"] {
+input[type="file"],
+input[type="date"],
+textarea,
+select {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
@@ -21,6 +24,7 @@ input[type="date"] {
 }
 button {
   background-color: #707c78;
+  font-size: 15px;
   color: white;
   padding: 15px 20px;
   border: none;
